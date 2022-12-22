@@ -14,6 +14,7 @@ class WaitlistBackendApplicationTests {
 	void contextLoads(Long id) {
 		Guest guest  = guestRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Guest not found."));
 		//컴퓨터 변화 테스트
+		assert();
 	}
 
 }
