@@ -16,7 +16,7 @@ class WaitlistBackendApplicationTests {
 		//컴퓨터 변화 테스트
 		assert();
 		//git 반영 테스트 문제 발생..
-		assert
+		assert;
 	}
 
 }
